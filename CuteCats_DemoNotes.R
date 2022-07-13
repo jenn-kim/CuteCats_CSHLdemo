@@ -65,5 +65,8 @@ git remote add origin https://github.com/jenn-kim/CuteCats_CSHLdemo.git
 git branch -M main
 git push -u origin main
 
+# try downloading package
+BiocManager::install('jenn-kim/CuteCats_CSHLdemo')
+
 
 download.file('https://github.com/seandavi/CuteCats/raw/main/inst/images/hooper_kitten.png', destfile='inst/images/hooper_kitten.png')
